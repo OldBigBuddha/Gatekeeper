@@ -23,8 +23,8 @@ logging.basicConfig(level=logging.WARN)
 
 # dotenv を読み込む
 # TOKEN、WELCOME_ID、MEMBER_ID が必要
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 # Bot のアクセストークン
 TOKEN = os.getenv('TOKEN')
